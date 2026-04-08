@@ -1,0 +1,105 @@
+.invite-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  padding: 20px;
+  background-color: #f9fafb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.invite-card {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f1f1f1;
+}
+
+.invite-card h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #1f2937;
+  font-size: 24px;
+  text-align: center;
+}
+
+.invite-card p.subtitle {
+  color: #6b7280;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Form Styles */
+.invite-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.invite-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-sizing: border-box; /* Ensures padding doesn't break width */
+}
+
+.invite-input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+.invite-button {
+  margin-top: 20px; /* Space between input and button */
+  padding: 14px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.invite-button:hover {
+  background-color: #1d4ed8;
+}
+
+.invite-button:active {
+  transform: scale(0.98);
+}
+
+.invite-button:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
+
+/* Fallback Link Box */
+.fallback-container {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #fffbeb;
+  border: 1px solid #fef3c7;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.fallback-container p {
+  margin: 0 0 8px 0;
+  color: #92400e;
+  font-weight: 500;
+}
+
+.fallback-link {
+  display: block;
+  color: #b45309;
+  text-decoration: underline;
+  word-break: break-all;
+}

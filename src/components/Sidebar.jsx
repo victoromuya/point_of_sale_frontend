@@ -59,7 +59,7 @@ export default function Sidebar({ currentUser }) {
             <li className="nav-item">
               <NavLink to="/users" className={linkClass}>
                 <i className="fa fa-user-circle nav-icon" />
-                Users
+                Staffs
               </NavLink>
             </li>
 

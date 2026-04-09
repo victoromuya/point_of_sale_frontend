@@ -23,9 +23,9 @@ import AcceptInvite from './components/AcceptInvite'
 import { AuthProvider } from './context/AuthContext'
 import { useAuth } from './context/AuthContext'
 import { ToastContainer } from 'react-toastify'
-import AuditTrail from './components/logs/AuditTrail'
-import LoginLogs from './components/logs/LoginLogs'
-import FlaggedStaffs from './components/logs/FlaggedStaffs'
+import AuditTrail from './components/poslogs/AuditTrail'
+import LoginLogs from './components/poslogs/LoginLogs'
+import FlaggedStaffs from './components/poslogs/FlaggedStaffs'
 
 function AppContent() {
   const { user, loading, setUser } = useAuth()
